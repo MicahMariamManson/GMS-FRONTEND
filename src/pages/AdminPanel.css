@@ -1,0 +1,54 @@
+/* AdminPanel.css */
+
+.admin-panel-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #96afa9ed; /* Light background color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Darker color for header */
+}
+
+h2 {
+    text-align: center;
+    color: #666; /* Lighter color for subheader */
+}
+
+.grievance-list {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+}
+
+.grievance-list li {
+    background: #fff; /* White background for list items */
+    border: 1px solid #ddd; /* Light border around items */
+    padding: 10px;
+    margin: 10px 0; /* Space between items */
+    border-radius: 5px; /* Rounded corners */
+    display: flex;
+    justify-content: space-between; /* Space out title and dropdown */
+    align-items: center; /* Align items vertically */
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ddd; /* Light border for the dropdown */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* White background for dropdown */
+    cursor: pointer; /* Pointer cursor for dropdown */
+    width: 120px; /* Set a fixed width for the dropdown */
+}
+
+select:hover {
+    border-color: #888; /* Darker border on hover */
+}
+
+p {
+    text-align: center; /* Center any paragraph text */
+    color: #999; /* Lighter color for no grievances message */
+}

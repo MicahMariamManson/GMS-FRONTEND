@@ -1,0 +1,4 @@
+/* Hide the entire navbar */
+.navbar {
+    display: none;
+  }
